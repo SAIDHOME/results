@@ -1,0 +1,277 @@
+{
+  "timestamp": "2026-01-03T16:37:49.281469",
+  "model_name": "SAID-LAM-v1",
+  "model_revision": "1.0.0",
+  "mteb_version": "2.1.0",
+  "org_name": "Said-Research",
+  "results": {
+    "LEMBNarrativeQARetrieval": {
+      "score": 48.285,
+      "status": "success",
+      "scores": {
+        "test": [
+          {
+            "ndcg_at_10": 0.48284999999999995,
+            "main_score": 0.48284999999999995,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ]
+      },
+      "dataset_revision": "main",
+      "mteb_version": "2.1.0"
+    },
+    "LEMBQMSumRetrieval": {
+      "score": 50.82600000000001,
+      "status": "success",
+      "scores": {
+        "test": [
+          {
+            "ndcg_at_10": 0.50826,
+            "main_score": 0.50826,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ]
+      },
+      "dataset_revision": "main",
+      "mteb_version": "2.1.0"
+    },
+    "LEMBSummScreenFDRetrieval": {
+      "score": 87.351,
+      "status": "success",
+      "scores": {
+        "test": [
+          {
+            "ndcg_at_10": 0.87351,
+            "main_score": 0.87351,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ]
+      },
+      "dataset_revision": "main",
+      "mteb_version": "2.1.0"
+    },
+    "LEMBWikimQARetrieval": {
+      "score": 65.684,
+      "status": "success",
+      "scores": {
+        "test": [
+          {
+            "ndcg_at_10": 0.65684,
+            "main_score": 0.65684,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ]
+      },
+      "dataset_revision": "main",
+      "mteb_version": "2.1.0"
+    },
+    "LEMBNeedleRetrieval": {
+      "score": 100.0,
+      "status": "success",
+      "per_context": {
+        "256": 100.0,
+        "512": 100.0,
+        "1024": 100.0,
+        "2048": 100.0,
+        "4096": 100.0,
+        "8192": 100.0,
+        "16384": 100.0,
+        "32768": 100.0
+      },
+      "scores": {
+        "test_256": [
+          {
+            "ndcg_at_1": 1.0,
+            "main_score": 1.0,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ],
+        "test_512": [
+          {
+            "ndcg_at_1": 1.0,
+            "main_score": 1.0,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ],
+        "test_1024": [
+          {
+            "ndcg_at_1": 1.0,
+            "main_score": 1.0,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ],
+        "test_2048": [
+          {
+            "ndcg_at_1": 1.0,
+            "main_score": 1.0,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ],
+        "test_4096": [
+          {
+            "ndcg_at_1": 1.0,
+            "main_score": 1.0,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ],
+        "test_8192": [
+          {
+            "ndcg_at_1": 1.0,
+            "main_score": 1.0,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ],
+        "test_16384": [
+          {
+            "ndcg_at_1": 1.0,
+            "main_score": 1.0,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ],
+        "test_32768": [
+          {
+            "ndcg_at_1": 1.0,
+            "main_score": 1.0,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ]
+      },
+      "dataset_revision": "main",
+      "mteb_version": "2.1.0"
+    },
+    "LEMBPasskeyRetrieval": {
+      "score": 100.0,
+      "status": "success",
+      "per_context": {
+        "256": 100.0,
+        "512": 100.0,
+        "1024": 100.0,
+        "2048": 100.0,
+        "4096": 100.0,
+        "8192": 100.0,
+        "16384": 100.0,
+        "32768": 100.0
+      },
+      "scores": {
+        "test_256": [
+          {
+            "ndcg_at_1": 1.0,
+            "main_score": 1.0,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ],
+        "test_512": [
+          {
+            "ndcg_at_1": 1.0,
+            "main_score": 1.0,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ],
+        "test_1024": [
+          {
+            "ndcg_at_1": 1.0,
+            "main_score": 1.0,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ],
+        "test_2048": [
+          {
+            "ndcg_at_1": 1.0,
+            "main_score": 1.0,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ],
+        "test_4096": [
+          {
+            "ndcg_at_1": 1.0,
+            "main_score": 1.0,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ],
+        "test_8192": [
+          {
+            "ndcg_at_1": 1.0,
+            "main_score": 1.0,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ],
+        "test_16384": [
+          {
+            "ndcg_at_1": 1.0,
+            "main_score": 1.0,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ],
+        "test_32768": [
+          {
+            "ndcg_at_1": 1.0,
+            "main_score": 1.0,
+            "hf_subset": "default",
+            "languages": [
+              "eng-Latn"
+            ]
+          }
+        ]
+      },
+      "dataset_revision": "main",
+      "mteb_version": "2.1.0"
+    }
+  }
+}
